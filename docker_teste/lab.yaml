@@ -7,7 +7,7 @@ metadata:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: docker-fundamentos
+    name: docker-fundamentos-patch
     title: "Introdução ao Docker Teste"
     description: "Aprenda os conceitos fundamentais de containerização com Docker, desde comandos básicos até a execução e gerenciamento de containers. Este laboratório guiado explora a arquitetura do Docker, seus componentes essenciais e fornece uma base sólida para suas jornadas de containerização."
     duration: 25m
