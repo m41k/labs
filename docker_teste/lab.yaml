@@ -215,4 +215,4 @@ data:
             errorMessage: "A imagem Alpine não foi baixada. Execute o comando 'docker pull alpine' para baixá-la."
           - command: "docker images | wc -l"
             expectedExpression: "2"
-            errorMessage: "Você deveria ter pelo menos uma imagem além do cabeçalho da tabela. Execute alguns comandos docker pull."
+            errorMessage: "Tratando o erro."
