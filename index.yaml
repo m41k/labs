@@ -1,0 +1,15 @@
+apiVersion: v1
+generated: "2024-03-20T10:00:00Z"
+entries:
+  lab-name:
+    - name: lab-name
+      version: "1.0.0"
+      description: "Descrição do laboratório"
+      keywords:
+        - keyword1
+        - keyword2
+      maintainers:
+        - "Nome <email@exemplo.com>"
+      url: "https://raw.githubusercontent.com/m41k/girus-cli/refs/heads/main/labs/index.yaml"
+      created: "2024-03-20T10:00:00Z"
+      digest: "sha256:hash-do-arquivo"
