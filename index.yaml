@@ -4,5 +4,5 @@ labs:
     description: Introdução ao Docker, criação de imagens e gerenciamento de containers
     version: 1.1.0
     duration: 45m
-    tags: [docker, containers, devops]
+    tags: [desenvolvimento, teste, new]
     url: https://github.com/m41k/labs/blob/main/docker_teste/lab.yaml
