@@ -1,8 +1,8 @@
 labs:
   - id: docker-teste
-    title: Fundamentos do Docker
-    description: Introdução ao Docker, criação de imagens e gerenciamento de containers
+    title: Teste Docker
+    description: Teste para correcao do LAB Docker
     version: 1.1.0
     duration: 45m
-    tags: [desenvolvimento, teste, new]
+    tags: [correcao, teste, patch]
     url: https://github.com/m41k/labs/blob/main/docker_teste/lab.yaml
