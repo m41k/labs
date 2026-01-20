@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: git-lab
+  namespace: girus
+  labels:
+    app: girus-lab-template
+data:
+  lab.yaml: |
+    name: git
+    title: "GIT"
+    description: "GIT Fundamentos"
+    duration: 45m
+    image: "linuxtips/girus-devops:0.1"
+    privileged: true
+    tasks:
+      - name: "Primeiros Passos"
+        description: "Primeiros passos no GIT"
+        steps:
+          - description: "Crie um diretorio chamado wokspakce"
+            "`mkdir wokspakce`"
+        validation:
+          - command: "ls -d wokspakce && echo 'ok'"
+            expectedOutput: "ok"
+            errorMessage: "O diretorio wokspakce não foi criado."
