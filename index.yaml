@@ -1,15 +1,8 @@
-labs:
-  - id: docker-teste
-    title: Teste Docker
-    description: Teste para correcao do LAB Docker
-    version: 1.1.0
-    duration: 45m
-    tags: [correcao, teste, patch]
-    url: https://github.com/m41k/labs/blob/main/docker_teste/lab.yaml
+labs:  
   - id: git-teste
     title: Teste Git
     description: Teste LAB Git
     version: 1.1.0
     duration: 45m
-    tags: [linux, git, devops]
+    tags: [linux]
     url: https://raw.githubusercontent.com/m41k/labs/main/git/lab.yaml
